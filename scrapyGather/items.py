@@ -59,3 +59,9 @@ class BooksItem(scrapy.Item):
     book_price = scrapy.Field()
     pass
 
+
+class MpWeixinItem(scrapy.Item):
+    title = scrapy.Field()
+    cover = scrapy.Field()
+    url = scrapy.Field()
+    pass
